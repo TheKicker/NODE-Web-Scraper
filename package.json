@@ -1,0 +1,22 @@
+{
+  "name": "node-web-scraper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheKicker/NODE-Web-Scraper.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "TheKicker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheKicker/NODE-Web-Scraper/issues"
+  },
+  "homepage": "https://github.com/TheKicker/NODE-Web-Scraper#readme"
+}
