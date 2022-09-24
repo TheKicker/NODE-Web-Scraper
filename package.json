@@ -4,7 +4,7 @@
   "description": "A basic web scraper using Node JS and various other tools",
   "main": "index.js",
   "scripts": {
-    "test": "serve"
+    "serve": "node index.js"
   },
   "repository": {
     "type": "git",
