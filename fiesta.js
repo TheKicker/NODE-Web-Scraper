@@ -11,11 +11,7 @@ const app = express()
 const port = 3000
 var count = 0
 
-const url = ["https://usadinnerwaredirect.com/collections/the-fiesta-vault",
-                "https://usadinnerwaredirect.com/collections/the-fiesta-vault?page=2",
-                "https://usadinnerwaredirect.com/collections/the-fiesta-vault?page=3",
-                "https://usadinnerwaredirect.com/collections/the-fiesta-vault?page=4",
-                "https://usadinnerwaredirect.com/collections/the-fiesta-vault?page=5"]
+const url = process.argv.slice(2) || "https://usadinnerwaredirect.com/collections/the-fiesta-vault"
 
 url.forEach(u=>{
     axios(u)
