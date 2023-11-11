@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/TheKicker/NODE-Web-Scraper#readme",
   "dependencies": {
-    "axios": "^0.27.2",
+    "axios": "^1.6.0",
     "cheerio": "^1.0.0-rc.12",
     "express": "^4.18.1"
   }
